@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-     int i, N=0, primo=1, secondo=1, terzo;
+int main () {
+    int i, N=0, primo=1, secondo=1, terzo;
     cin>>N;
     if (N>=2){
 
@@ -15,5 +15,6 @@ int main() {
     else{
         cout<<"errore"<<endl;
     }
-   return 0;
+
+    return 0;
 }
